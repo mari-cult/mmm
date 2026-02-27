@@ -14,8 +14,7 @@ RDEPEND="
 "
 DEPEND="${RDEPEND}"
 BDEPEND="
-	>=virtual/rust-1.70.0
-	sys-devel/clang
+	llvm-core/clang
 "
 
 src_unpack() {

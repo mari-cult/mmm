@@ -246,7 +246,7 @@ CRATES="
 	zstd@0.13.3
 "
 
-LLVM_COMPAT=( {20..21} )
+LLVM_COMPAT=( {20..22} )
 RUST_MIN_VER="1.90"
 inherit cargo llvm-r2 unpacker
 
